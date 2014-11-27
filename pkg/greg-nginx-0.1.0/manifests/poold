@@ -1,0 +1,19 @@
+define php::poold (
+        $document_root  = "",
+        $template   = "nginx/poold/pool.conf.template.erb ",
+	$name  = "${name}"
+
+)
+{
+
+file { "${php::phpconfdir}/${name}.conf":
+        content => template("$template"),
+        owner => "root",
+        group => "root",
+        mode  => "0644",
+        require => Package["php5-fpm"],
+        notify  => Service["php5-fpm"]
+     }
+
+
+}

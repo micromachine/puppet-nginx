@@ -1,0 +1,15 @@
+{
+  "Gemfile": "dbc1a15e3a264c03878028240cfc5d89",
+  "README.md": "dbc0bf8d2a8e1bf59240833304fae56c",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "manifests/config.pp": "d41d8cd98f00b204e9800998ecf8427e",
+  "manifests/init.pp": "ecc7168a136e561b4a61e56bd2fb1e00",
+  "manifests/poold": "8256a626ecd966cb076d8c79763002e4",
+  "manifests/vhost.pp": "7be033c96bc14ecc4fabb110238630b3",
+  "metadata.json": "7864e860db3a5bcad1706beebad3950e",
+  "spec/classes/init_spec.rb": "a31be5ee622fa59f7a30abd8a687005f",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/poold/pool.conf.template.erb": "dd411cdd74119f50bec75b8c90b0534f",
+  "templates/vhost/nginx-vhost.erb": "e0cad50ef78b97e15aef80370294b8ea",
+  "tests/init.pp": "66924639fb8862692607a17947be9ec0"
+}
